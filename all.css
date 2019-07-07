@@ -1,0 +1,51 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C04848), to(#480048));
+  background: linear-gradient(#C04848, #480048);
+}
+
+.title {
+  text-align: center;
+  background-color: #000034;
+  color: #fff;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+
+.add-item {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.add-item #item {
+  border: 1px solid #000034;
+  border-radius: 2%;
+  width: 30%;
+}
+
+.add-item #btnAddToDo {
+  background-color: #000034;
+  color: #fff;
+}
+
+ul {
+  margin-left: 25%;
+  border: 5px solid #000034;
+  width: 50%;
+  color: black;
+  padding-left: 0;
+}
+
+li {
+  border-bottom: 2px solid #000034;
+}
+
+.fa {
+  padding: 1% 0;
+  font-size: 150%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

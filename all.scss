@@ -1,0 +1,64 @@
+$navyblue: #000034;
+$white: #fff;
+$gray: #E8E8E8;
+
+body{
+    background: linear-gradient(#C04848, #480048);
+    
+}
+
+
+
+    
+    .title{
+        text-align: center;
+        background-color: $navyblue;
+        color: $white;
+        margin-bottom: 5%;
+        // height: 80%;
+        padding: 5%; 
+
+    }
+
+
+.add-item{
+
+    margin-bottom: 5%;
+    text-align: center;
+    #item{
+        border: 1px solid $navyblue;
+        border-radius: 2%;
+        width: 30%;
+        // height: 70%;
+    }
+    
+    #btnAddToDo{
+        background-color: $navyblue;
+        color: $white;
+    
+    }
+
+}
+
+
+
+ul{
+    margin-left:25%;
+    // margin-top: 5%;
+    border: 5px solid $navyblue;
+    width: 50%;
+    color: black;
+    padding-left: 0;
+}
+
+li{
+    border-bottom: 2px solid $navyblue;
+}
+
+.fa{
+    padding: 1% 0;
+    font-size: 150%;
+}
+.flex{
+    display: flex;
+}
